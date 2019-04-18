@@ -146,5 +146,9 @@ void input(){
 		}
 	}
 }
-
+void inst()
+{
+	printf("\nHello,Please follow these instructions"
+	      "\n**>Enter time in 2400 hours format,eg 11:30 enter 1130"
+	      )
 
