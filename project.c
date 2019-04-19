@@ -146,9 +146,18 @@ void input(){
 		}
 	}
 }
-void inst()
-{
-	printf("\nHello,Please follow these instructions"
-	      "\n**>Enter time in 2400 hours format,eg 11:30 enter 1130"
-	      )
+void inst(){
+	printf("\nWelcome,Please follow these instruction"
+			"\n**>Enter time in 2400 hours format. example for 11:30 am enter 11030"
+			"\n**>Enter Query arrival times in ascending order\n"
+			"\nAll Time units are in minutes. \n\n"
+			);
+}
 
+ main(){
+ 	inst();
+	input();
+	merger();
+	roundRobin();
+	printer();
+}
